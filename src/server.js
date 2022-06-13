@@ -8,11 +8,15 @@ const app = express();
 // router
 const notFoundHandler = require("./error-handlers/404");
 const errorHandler = require("./error-handlers/500");
-const usersRouter = require("./routes/users.route");
+const signInRouter = require("./routes/signInRouter");
+const signUpRouter = require("./routes/signUpRouter");
+
 
 // // app.use
 app.use(express.json());
-app.use(usersRouter);
+app.use(signInRouter);
+app.use(signUpRouter);
+
 
 
 app.use("*", notFoundHandler);
