@@ -2,6 +2,10 @@
 
 Authentication System: Deploy an Express server that implements Basic Authentication, with signup and signin capabilities, using a Postgres database for storage.
 
+
+
+![uml diagram](./assest/whiteboard-lab.png)
+
 ![UML Diagram](./assest/uml-diagram-auth.png)
 
 [heroku link](https://basic-auth-tasneem.herokuapp.com/users)<br>
